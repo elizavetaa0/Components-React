@@ -1,9 +1,9 @@
-import React from "react";
-import { ButtonProps } from "./types";
+import React from 'react';
+import { ButtonProps } from './types';
 import styles from './style.module.css';
-import clsx from "clsx";
-import TruncateMarkup from "react-truncate-markup";
-import Counter from '../Counter';  // Adjust the import path as necessary
+import clsx from 'clsx';
+import TruncateMarkup from 'react-truncate-markup';
+import Counter from '../Counter';
 
 const Button = ({
   type,
